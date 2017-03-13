@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=DooD
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DooD\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=DooD()
+comment2.params=aa\ bb
+comment2.target=DooD(java.lang.String,\ java.lang.String)
+comment3.params=aa\ bb\ n
+comment3.target=DooD(java.lang.String,\ java.lang.String,\ boolean)
+comment4.params=f
+comment4.target=DooD(boolean)
+comment5.params=
+comment5.target=void\ act()
+comment6.params=
+comment6.target=void\ gravity()
+comment7.params=
+comment7.target=void\ checkKeyPress()
+comment8.params=
+comment8.target=void\ wormhole()
+numComments=9
