@@ -15,7 +15,7 @@ public class DooD extends Actor
     String a;
     String b;
     static int x = 0;
-    int gvt[] = {16,8,0,-8,-16,-24,-32,-40,-40,-40};
+    int gvt[] = {16,8,0,-4,8,-16,-32,-40,-48,-48};
     int dly = 2;
     boolean down;
     boolean check;
@@ -38,6 +38,11 @@ public class DooD extends Actor
         a = aa;
         b = bb;
         setImage(a);
+    }
+    public DooD(String bb){
+        down = false;
+        b = bb;
+        setImage(b);
     }
     public DooD(boolean f){
         down = true;

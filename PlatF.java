@@ -24,7 +24,6 @@ public class PlatF extends Objective
     public void checkJump(){
         try{
         DooD m = getWorld().getObjects(DooD.class).get(0);
-        //if(m.get)
         if(isTouching(DooD.class) && m.x<=2 && ((-45)<=(m.getX()-this.getX())&&(m.getX()-this.getX())<=45) && (this.getY()-m.getY())>=30){
             try{
                 if(m.getY()<=this.getY()){

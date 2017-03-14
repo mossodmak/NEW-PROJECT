@@ -37,5 +37,9 @@ public class Home extends World
         start.setLocation(299,445);
         start.setLocation(293,488);
         start.setLocation(293,494);
+        HTP htp = new HTP();
+        addObject(htp,272,306);
+        start.setLocation(293,547);
+        htp.setLocation(297,343);
     }
 }
